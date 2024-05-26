@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+
+  /**
+   * COLORS
+   */
+  --gold-crayola: hsl(38, 61%, 73%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --pink: #FF919D;
+  --glass: rgba(255, 255, 255, 0.54);
+  --activeItem: #f799a354;
+  --white:  #ffffff;
+
+/**
+ * GRADIENT COLOR
+ */
+ --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+ --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+ --background-gadient :linear-gradient(106.37deg, #ffe1bc 29.63%,#ffcfd1 51.55%,#f3c6f1 90.85%);
+
+/**
+ * TYPOGRAPHY
+ */
+
+/* font-family */
+--fontFamily-inter_sans:  "Inter", sans-serif;
+
+/* font-size */
+--fontSize-display-1: calc(1.3rem + 6.7vw);
+--fontSize-headline-1: calc(1rem + 1vw);
+--fontSize-headline-2: calc(1.3rem + 2.4vw);
+--fontSize-title-1: calc(1.6rem + 1.2vw);
+--fontSize-title-2: 2.2rem;
+--fontSize-title-3: 2.1rem;
+--fontSize-title-4: calc(1.6rem + 1.2vw);
+--fontSize-body-1: 2.4rem;
+--fontSize-body-2: 1.6rem;
+--fontSize-body-3: 1.8rem;
+--fontSize-body-4: 0.875rem;
+--fontSize-label-1: 1.4rem;
+--fontSize-label-2: 1.2rem;
+
+/* font-weight */
+--weight-regular: 400;
+--weight-bold: 700;
+
+/* line-height */
+--lineHeight-1: 1em;
+--lineHeight-2: 1.2em;
+--lineHeight-3: 1.5em;
+--lineHeight-4: 1.6em;
+--lineHeight-5: 1.85em;
+--lineHeight-6: 1.4em;
+
+/* letter-spacing */
+--letterSpacing-1: 0.15em;
+--letterSpacing-2: 0.4em;
+--letterSpacing-3: 0.2em;
+--letterSpacing-4: 0.3em;
+--letterSpacing-5: 3px;
+
+/**
+ * SPACING
+ */
+
+--section-space: 70px;
+
+/**
+ * SHADOW
+ */
+
+--boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+--smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+
+/**
+ * BORDER RADIUS
+ */
+--radius-2rem: 2rem;
+--radius-0-7rem: 0.7rem;
+--radius-circle: 50%;
+
+/**
+ * TRANSITION
+ */
+
+--transition-1: 250ms ease;
+--transition-2: 500ms ease;
+--transition-3: 1000ms ease;
+--transition-4: all 300ms ease;
+
 }

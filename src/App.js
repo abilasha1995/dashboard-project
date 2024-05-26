@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import MainDash from './componets/MainDash/MainDash';
+import { RightSide } from './componets/RightSide/RightSide';
+import Sidebar from './componets/Sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className='AppGlass'>
+           <Sidebar/>
+           <MainDash/>
+           <RightSide/>
+           
+          
+        </div>
     </div>
   );
 }
